@@ -107,7 +107,7 @@ export const featuredCampaigns: Campaign[] = [
       "Chiến dịch tuyển dụng quy mô lớn cho mảng kinh doanh biển quảng cáo tấm lớn và pano toàn quốc, ưu tiên ứng viên có kinh nghiệm media.",
     activeJobs: 24,
     location: "Toàn quốc",
-    badge: "Chiến Dịch Độc Quyền",
+    badge: "Chiến Dịch Nổi Bật",
   },
   {
     id: "c3",
