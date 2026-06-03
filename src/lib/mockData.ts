@@ -146,7 +146,7 @@ export type Industry = {
   id: string;
   name: string;
   jobs: number;
-  icon: "briefcase" | "wrench" | "palette" | "target";
+  icon: "briefcase" | "wrench" | "palette" | "target" | "monitor" | "megaphone";
 };
 
 export const industries: Industry[] = [
@@ -154,4 +154,6 @@ export const industries: Industry[] = [
   { id: "install", name: "Thi Công & Lắp Đặt", jobs: 167, icon: "wrench" },
   { id: "design", name: "Thiết Kế Đồ Họa 3D", jobs: 134, icon: "palette" },
   { id: "media", name: "Media Planning", jobs: 92, icon: "target" },
+  { id: "led", name: "Kỹ Thuật LED & Màn Hình", jobs: 78, icon: "monitor" },
+  { id: "activation", name: "Activation & Sự Kiện", jobs: 64, icon: "megaphone" },
 ];
