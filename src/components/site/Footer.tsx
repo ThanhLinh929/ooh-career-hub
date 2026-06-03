@@ -69,8 +69,8 @@ export function Footer() {
         </div>
 
         <div className="mt-12 flex flex-col items-start justify-between gap-3 border-t border-white/10 pt-6 text-xs text-white/60 sm:flex-row sm:items-center">
-          <div>© {new Date().getFullYear()} VieclamOOH. Vận hành bởi Công Ty Cổ Phần Quảng Cáo Shojiki. All rights reserved.</div>
-          <div>Made for the Vietnam OOH industry.</div>
+          <div>© {new Date().getFullYear()} VieclamOOH. Vận hành bởi Công Ty Cổ Phần Quảng Cáo Shojiki. Bảo lưu mọi quyền.</div>
+          <div>Đồng hành cùng ngành Quảng Cáo Ngoài Trời Việt Nam.</div>
         </div>
       </div>
     </footer>
