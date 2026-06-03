@@ -1,4 +1,4 @@
-import { Search, Upload } from "lucide-react";
+import { Briefcase, Search } from "lucide-react";
 
 export function CandidateCTA() {
   return (
