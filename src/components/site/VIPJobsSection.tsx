@@ -11,7 +11,7 @@ const tabs = [
   { id: "expiring", label: "Sắp hết hạn" },
 ] as const;
 
-const PAGE_SIZE = 12;
+const PAGE_SIZE = 8;
 
 export function VIPJobsSection() {
   const [tab, setTab] = useState<(typeof tabs)[number]["id"]>("all");

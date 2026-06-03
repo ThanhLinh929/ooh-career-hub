@@ -1,4 +1,4 @@
-import { Search, Upload } from "lucide-react";
+import { Briefcase, Search } from "lucide-react";
 
 export function CandidateCTA() {
   return (
@@ -19,13 +19,13 @@ export function CandidateCTA() {
                 href="#"
                 className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-primary px-7 py-3.5 text-sm font-bold text-primary-foreground transition-colors hover:bg-primary-hover active:scale-95 sm:w-auto"
               >
-                <Upload size={17} /> Tải Lên CV Ngay
+                <Search size={17} /> Tìm việc ngay
               </a>
               <a
                 href="#"
                 className="inline-flex w-full items-center justify-center gap-2 rounded-xl border-2 border-foreground/15 bg-white px-7 py-3.5 text-sm font-bold text-foreground transition-colors hover:border-primary hover:text-primary sm:w-auto"
               >
-                <Search size={17} /> Tìm kiếm việc làm
+                <Briefcase size={17} /> Dành cho nhà tuyển dụng
               </a>
             </div>
           </div>

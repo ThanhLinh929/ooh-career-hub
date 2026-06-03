@@ -1,8 +1,15 @@
 import { useState } from "react";
-import { ArrowRight, Briefcase, Palette, Target, Wrench } from "lucide-react";
+import { ArrowRight, Briefcase, Megaphone, Monitor, Palette, Target, Wrench } from "lucide-react";
 import { industries } from "@/lib/mockData";
 
-const icons = { briefcase: Briefcase, wrench: Wrench, palette: Palette, target: Target };
+const icons = {
+  briefcase: Briefcase,
+  wrench: Wrench,
+  palette: Palette,
+  target: Target,
+  monitor: Monitor,
+  megaphone: Megaphone,
+} as const;
 
 export function TopIndustriesGrid() {
   const [active, setActive] = useState<string | null>(null);
@@ -18,7 +25,7 @@ export function TopIndustriesGrid() {
           </p>
         </div>
 
-        <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {industries.map((ind) => {
             const Icon = icons[ind.icon];
             const isActive = active === ind.id;
